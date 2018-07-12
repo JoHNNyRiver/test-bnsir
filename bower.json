@@ -1,0 +1,22 @@
+{
+  "name": "test-bnsir",
+  "homepage": "https://github.com/JoHNNyRiver/test-bnsir",
+  "description": "Teste para empresa BNSIR",
+  "main": "public/js/app.js",
+  "keywords": [
+    "teste",
+    "bnsir"
+  ],
+  "authors": [
+    "João Ribeiro"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

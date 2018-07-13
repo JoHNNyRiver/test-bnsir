@@ -1,0 +1,21 @@
+titulo;anoConclusaoObra;logradouro;numero;bairro;estado;lat;lng;MinareaUtil;MáxareaUtil;MinareaTotal;MáxareaTotal;Minvaga;Maxvaga;MIndorms;Maxdorms;CoberturaMinareaUtil;CoberturaMáxareaUtil;CoberturaMinareaTotal;CoberturaMáxareaTotal;CoberturaMinvaga;CoberturaMaxvaga;CoberturaMIndorms;CoberturaMaxdorms;PossuiCobertura
+Franz Liszt;1955;Rua Canario;943;Moema Pássaros;SP;-23.60340100;-46.66878120;50;100;0;0;2;2;1;2;;;;;;;;;Não
+Due Macelli;1991;Rua Gabrielle D Annunzio;296;Campo Belo;SP;-23.62021020;-46.67951590;180;180;180;180;2;2;4;4;350;350;350;350;2;2;4;4;Sim
+The Landmark;1968;Al. Jau;1617;Jardim América;SP;-23.55965810;-46.66265970;80;80;80;80;0;0;2;2;;;;;;;;;Não
+Caio Prado;1983;Rua Caio Prado;207;Consolação;SP;-23.54964370;-46.64807290;80;80;80;80;1;1;2;2;;;;;;;;;Não
+El Awar;1981;Rua Borges Lagoa;1043;Vila Clementino;SP;-23.59692170;-46.64682490;62;62;62;62;1;1;2;2;;;;;;;;;Não
+Aquarela;1992;Rua Conego Ladeira;375;Tucuruvi;SP;-23.47776730;-46.60362250;144;144;144;144;2;2;4;4;277;277;277;277;3;3;4;4;Sim
+Vila Jardim Casa Verde;;Av. Mandaqui;189;Limão;SP;-23.50546450;-46.67110000;;;;;;;;;;;;;;;;;
+Reserva Das Árvores;1999;Rua Caramuru;1125;Saúde;SP;-23.61344570;-46.63466650;136;136;136;136;3;3;4;4;;;;;;;;;Não
+Castro Alves;1976;Rua Castro Alves;314;Aclimação;SP;-23.56843770;-46.63736970;80;80;0;0;2;2;2;2;;;;;;;;;Não
+Vila de Braganca;2010;Rua Cisplatina;178;Ipiranga;SP;-23.58837060;-46.60563940;237;439;237;439;0;3;4;4;439;439;439;439;0;0;4;4;Sim
+Anália Franco;1998;Rua Eleonora Cintra;168;Jardim Anália Franco;SP;-23.55423150;-46.56272910;130;260;130;260;2;4;3;4;;;;;;;;;Não
+Gibraltar;1977;Al. Jau;1375;Jardim América;SP;-23.56103230;-46.66089170;0;0;0;0;0;0;0;0;;;;;;;;;Não
+Henriqueta;;Rua Conselheiro Moreira de Barros;32;Santana;SP;-23.49736160;-46.62619310;50;50;50;50;0;0;1;1;;;;;;;;;Não
+Vera;;Rua Mto João Gomes de Araújo;76;Santana;SP;-23.48727820;-46.62241620;0;0;0;0;0;0;0;0;;;;;;;;;Não
+Jardim de Mermier;;Av. Itaborai;109;Bosque da Saúde;SP;-23.60924700;-46.62694100;45;90;50;95;2;3;2;3;180;180;180;180;3;3;3;3;Sim
+Maison Jacqueline;1995;Rua Cel Artur de Paula Ferreira;162;Vila Nova Conceição;SP;-23.59684820;-46.66999680;100;280;100;280;1;3;2;2;600;600;600;600;4;4;4;4;Sim
+Jatobás I;1989;Rua dos Jatobas;77;Jabaquara;SP;-23.64727520;-46.64317790;222;222;222;222;4;4;3;3;;;;;;;;;Não
+Itaúna;1964;Rua Tuim;307;Moema Pássaros;SP;-23.59988820;-46.66849180;90;90;90;90;1;1;2;2;;;;;;;;;Não
+Berrini Sul;;Rua Luigi Galvani;42;Brooklin;SP;-23.60930050;-46.69323830;120;240;120;240;2;3;3;3;240;240;240;240;240;4;4;4;sim
+Dante Almeri;1996;Rua das Grumixamas;799;Jabaquara;SP;-23.65007640;-46.64770250;108;108;108;108;2;2;3;3;;;;;;;;;Não

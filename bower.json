@@ -20,6 +20,8 @@
     "tests"
   ],
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "bulma": "^0.7.1",
+    "animate.css": "^3.5.2"
   }
 }

@@ -11,5 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<title>BNSIR TESTE</title>
+
+	<link rel="stylesheet" href="./bower_components/animate.css/animate.min.css">
 </head>
 <body>

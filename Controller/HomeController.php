@@ -2,7 +2,8 @@
 
 namespace BNSIR\Controller;
 
-use Slim\Container;
+use \Slim\Container;
+use \BNSIR\model\ValidaForm;
 
 class HomeController {
 	protected $container;
@@ -25,6 +26,16 @@ class HomeController {
 	}
 
 	public function dashboard($request, $response, array $args) {
-	    $this->view($response, '/html/dashboard.php');
+	    $this->view($response, '/html/dashboard.php', ['user' => $_SESSION['user']]);
+	}
+
+	public function dashPost($request, $response, array $args) {
+	   $validateForm = new ValidaForm;
+	   $inputs = $validateForm->validate($_REQUEST);
+
+	   $_SESSION['user'] = $inputs['login'];
+
+	   $redirected = $this->container->router->pathFor('dash');
+	   return $response->withRedirect($redirected);
 	}
 }

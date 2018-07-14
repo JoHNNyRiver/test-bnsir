@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 use \BNSIR\Controller\HomeController;
 use \Slim\Views\PhpRenderer;
 use \Slim\App;

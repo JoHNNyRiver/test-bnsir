@@ -1,9 +1,11 @@
 var gulp = require('gulp')
 var concat = require('gulp-concat')
-var uglify = require('gulp-uglify')
+var uglify = require('gulp-uglify-es').default
 var sass = require('gulp-sass')
 var image = require('gulp-image')
 var rename = require('gulp-rename')
+const babel = require('gulp-babel')
+
 var jsArray = [
     'js/*.js'
 ]
@@ -25,15 +27,19 @@ gulp.task('cssdev', function () {
 })
 .task('jsdev', function(){
   return gulp.src(jsArray)
+  .pipe(babel({
+            presets: ['env']
+      }))
       .pipe(concat('all.js'))
       .pipe(gulp.dest('dist/js'))
 })
 .task('js', ['jsdev'], function(){
   return gulp.src(jsArray)
       .pipe(concat('all.min.js'))
-      .pipe(uglify({
-          preserveComments: false
+      .pipe(babel({
+            presets: ['env']
       }))
+      .pipe(uglify())
       .pipe(gulp.dest('dist/js'))
 })
 .task('img', function () {

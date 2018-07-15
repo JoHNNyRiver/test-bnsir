@@ -57,6 +57,38 @@ body {
   font-size: 9px !important;
 }
 
+.dualrange__max, .dualrange__min {
+  z-index: 1 !important;
+  border: 1px solid #ccc !important;
+  width: 40px !important;
+  height: 40px !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dualrange__range {
+  z-index: 0 !important;
+  background: #7ff633 !important;
+  height: 10px !important;
+}
+
+.dualrange__max:before, .dualrange__min:before {
+  height: 10px !important;
+  background: #e5e5e5 !important;
+}
+
+.dualrange {
+  width: 100% !important;
+  height: 60px !important;
+}
+
+.dualrange__input-min {
+  height: 100% !important;
+}
+
+.dualrange__input-max {
+  height: 100% !important;
+}
+
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -9751,6 +9783,38 @@ body {
   font-size: 9px !important;
 }
 
+.dualrange__max, .dualrange__min {
+  z-index: 1 !important;
+  border: 1px solid #ccc !important;
+  width: 40px !important;
+  height: 40px !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dualrange__range {
+  z-index: 0 !important;
+  background: #7ff633 !important;
+  height: 10px !important;
+}
+
+.dualrange__max:before, .dualrange__min:before {
+  height: 10px !important;
+  background: #e5e5e5 !important;
+}
+
+.dualrange {
+  width: 100% !important;
+  height: 60px !important;
+}
+
+.dualrange__input-min {
+  height: 100% !important;
+}
+
+.dualrange__input-max {
+  height: 100% !important;
+}
+
 body {
   display: -webkit-flex;
   display: -moz-flex;
@@ -9939,9 +10003,10 @@ body {
 
 .dashboard__searchform label {
   position: absolute;
-  right: 20px;
+  right: 15px;
   top: 50%;
   transform: translateY(-50%);
+  background: #fff;
 }
 
 .dashboard__cards {
@@ -9957,12 +10022,17 @@ body {
 }
 
 .dashboard__cardinfomoveis {
-  padding: 20px;
+  padding: 30px;
   width: 49%;
   max-width: 100%;
   height: 300px;
   background: #fff;
   margin: 0 1px 40px 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard__cardinfomoveis:first-of-type {
+  overflow: hidden;
 }
 
 .dashboard__cardinfomoveis:nth-of-type(2) {
@@ -9977,6 +10047,34 @@ body {
 .dashboard__cardinfomoveis:last-of-type {
   margin-right: 0;
   margin-bottom: 0;
+}
+
+.dashboard__cardinfomoveis h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.dashboard__cardsselector {
+  margin-top: 50px;
+}
+
+.dashboard__cardsqtd {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard__cardsqtd .min, .dashboard__cardsqtd .max {
+  padding: 20px 70px;
+  border: 1px solid #e5e5e5;
+  color: #5d5c5c;
+  text-transform: uppercase;
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -10036,6 +10134,38 @@ body {
   transform: translateY(-10px);
   color: #7ff633;
   font-size: 9px !important;
+}
+
+.dualrange__max, .dualrange__min {
+  z-index: 1 !important;
+  border: 1px solid #ccc !important;
+  width: 40px !important;
+  height: 40px !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dualrange__range {
+  z-index: 0 !important;
+  background: #7ff633 !important;
+  height: 10px !important;
+}
+
+.dualrange__max:before, .dualrange__min:before {
+  height: 10px !important;
+  background: #e5e5e5 !important;
+}
+
+.dualrange {
+  width: 100% !important;
+  height: 60px !important;
+}
+
+.dualrange__input-min {
+  height: 100% !important;
+}
+
+.dualrange__input-max {
+  height: 100% !important;
 }
 
 .login {

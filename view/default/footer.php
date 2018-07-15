@@ -1,3 +1,3 @@
-<script src="./public/dist/js/all.min.js"></script>
+<script src="./public/dist/js/all.js"></script>
 </body>
 </html>

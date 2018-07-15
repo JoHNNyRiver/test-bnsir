@@ -2,6 +2,7 @@
 
 <!-- stylesheet dashboard -->
 <link rel="stylesheet" href="./public/dist/css/dashboard/dashboard.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/figuarnieri/dualrange/master/dualrange.min.css" /> 
 <link rel="stylesheet" href="./public/dist/css/fontawesome-all.min.css">
 
 <aside class="sidebar animated slideInLeft">
@@ -65,18 +66,31 @@
 	<section class="dashboard__search">
 		<h2>Busca</h2>
 
-		<form action="#" class="dashboard__searchform">
-			<input type="text" id="search" placeholder="Busca por bairro, ano ou logradouro">
+		<form action="#" class="dashboard__searchform" method="post">
+			<input type="search" id="search" placeholder="Busca por bairro, ano ou logradouro" required autocomplete="off">
 			<label for="search" class="fa fa-search"></label>
 		</form>
 	</section>
 
 	<section class="dashboard__cards">
-		<div class="dashboard__cardinfomoveis"></div>
+		<div class="dashboard__cardinfomoveis">
+			<h2>Área M²</h2>
+
+			<input type="range" name="Range" class="dashboard__cardsselector" step="1" min="0" max="1000" />
+
+			<div class="dashboard__cardsqtd">
+				<span class="min">0 m²</span>
+				<span class="max">1.000 m²</span>
+			</div>
+		</div>
 		<div class="dashboard__cardinfomoveis"></div>
 		<div class="dashboard__cardinfomoveis"></div>
 		<div class="dashboard__cardinfomoveis"></div>
 	</section>
 </main>
+
+<!-- scripts da dashboard -->
+<script src="https://cdn.rawgit.com/figuarnieri/dualrange/master/dualrange.min.js"></script> 
+<script src="./public/dist/js/chart.min.js" async></script>
 
 <?php include_once 'view/default/footer.php'; ?>

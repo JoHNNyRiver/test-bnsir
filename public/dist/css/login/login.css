@@ -57,6 +57,38 @@ body {
   font-size: 9px !important;
 }
 
+.dualrange__max, .dualrange__min {
+  z-index: 1 !important;
+  border: 1px solid #ccc !important;
+  width: 40px !important;
+  height: 40px !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dualrange__range {
+  z-index: 0 !important;
+  background: #7ff633 !important;
+  height: 10px !important;
+}
+
+.dualrange__max:before, .dualrange__min:before {
+  height: 10px !important;
+  background: #e5e5e5 !important;
+}
+
+.dualrange {
+  width: 100% !important;
+  height: 60px !important;
+}
+
+.dualrange__input-min {
+  height: 100% !important;
+}
+
+.dualrange__input-max {
+  height: 100% !important;
+}
+
 .login {
   width: 100vw;
   height: 100vh;

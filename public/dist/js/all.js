@@ -12,6 +12,11 @@ function animate(_ref) {
 
 if (window.location.pathname === '/dashboard') {
 	animate({ who: '.sidebar', where: 'main.dashboard', clazz: 'fadeIn' });
+
+	new DualRange('.dashboard__cardsselector', function (event) {
+		document.querySelector('.min').textContent = event.min + ' m\xB2';
+		document.querySelector('.max').textContent = event.max + ' m\xB2';
+	});
 }
 'use strict';
 

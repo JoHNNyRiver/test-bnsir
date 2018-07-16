@@ -12,7 +12,7 @@
 
 	<section class="sidebar__avatar avatar">
 		<figure class="avatar__thumb">
-			<img src="http://iekairos.com.br/wp-content/uploads/2016/01/tutor-8.jpg" alt="thumbnail">
+			<img src="./public/dist/img/johndoe.jpg" alt="thumbnail">
 		</figure>
 
 		<div class="avatar__name">
@@ -73,6 +73,7 @@
 	</section>
 
 	<section class="dashboard__cards">
+		
 		<div class="dashboard__cardinfomoveis">
 			<h2>Área M²</h2>
 
@@ -83,14 +84,86 @@
 				<span class="max">1.000 m²</span>
 			</div>
 		</div>
-		<div class="dashboard__cardinfomoveis"></div>
-		<div class="dashboard__cardinfomoveis"></div>
-		<div class="dashboard__cardinfomoveis"></div>
+
+		<div class="dashboard__cardinfomoveis">
+			<div id="map"></div>
+		</div>
+
+		<div class="dashboard__cardinfomoveis">
+			<header class="headerslider">
+				<h2>Mais visitados</h2>
+
+				<div class="slidercontrols">
+					<button class="backcontrol"><i class="fas fa-play"></i></button>
+
+					<ul class="listcontrol">
+						<li class="active">1</li>
+						<li>2</li>
+						<li>3</li>
+					</ul>
+
+					<button class="nextcontrol"><i class="fas fa-play"></i></button>
+				</div>
+			</header>
+
+			<div class="slider">
+				<div class="contentslider active">
+					<figure>
+						<img src="./public/dist/img/slide3.jpeg" alt="">
+					</figure>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, mollitia. Consectetur accusantium cum, molestias obcaecati asperiores expedita</p>
+				</div>
+
+				<div class="contentslider">
+					<figure>
+						<img src="./public/dist/img/slide1.jpeg" alt="">
+					</figure>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, mollitia. Consectetur accusantium cum, molestias obcaecati asperiores expedita</p>
+				</div>
+
+				<div class="contentslider">
+					<figure>
+						<img src="./public/dist/img/slide2.jpeg" alt="">
+					</figure>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, mollitia. Consectetur accusantium cum, molestias obcaecati asperiores expedita perspiciatis atque mollitia saepe.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="dashboard__cardinfomoveis">
+			<canvas class="infografico"></canvas>
+		</div>
+	</section>
+
+	<section class="dashboard__table">
+		<h2>resultados de busca</h2>
+
+		<div class="dashboard__wraptable">
+			<table>
+				<thead>
+					<tr> 
+						<td>Titulo</td>
+						<td>Ano</td> 
+						<td>logradouro</td> 
+						<td>Número</td> 
+						<td>Bairro</td> 
+					</tr> 
+				</thead>
+
+				<tbody>
+					<!-- Conteúdo -->
+				</tbody>
+			</table>
+		</div>
 	</section>
 </main>
 
 <!-- scripts da dashboard -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC1rUuLguX49W_Xg9e5gfPre9R3EFYxtM&callback=initMap" async defer></script>
 <script src="https://cdn.rawgit.com/figuarnieri/dualrange/master/dualrange.min.js"></script> 
-<script src="./public/dist/js/chart.min.js" async></script>
+<script src="./public/dist/js/chart.min.js"></script>
 
 <?php include_once 'view/default/footer.php'; ?>

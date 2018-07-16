@@ -4,6 +4,10 @@ $primary-color: #252525
 $second-color: #7ff633
 $light-gray: #959494
 
+*
+	margin: 0
+	padding: 0
+
 body
 	background-color: $bg-color
 	margin: 0
@@ -12,6 +16,9 @@ body
 	outline: none
 	color: $primary-color
 	box-sizing: border-box
+
+h1, h2, h3, h4, h5, h6, p, figure
+	margin: 0
 
 .header-logo
 	width: 100%
@@ -81,4 +88,13 @@ body
 
 	&__input-max
 		height: 100% !important
+
+.sliderShow
+	width: 100%
+	height: 240px
+	overflow: hidden
+
+	.wrapSliderShow
+		display: inline-block
+		transition: transform .3s
 	
